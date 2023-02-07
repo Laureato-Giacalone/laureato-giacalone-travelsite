@@ -86,8 +86,8 @@
 }
 
 .recommendations__card {
-    height: 400px;
-    width: 300px;
+    height: 375px;
+    width: 275px;
     border-radius: 5px;
     border: 1px solid rgba(5, 0, 0, 0.20);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, .2);

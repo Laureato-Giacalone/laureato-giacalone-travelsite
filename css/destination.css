@@ -1,0 +1,64 @@
+.destination__container {
+    background-image: url(../assets/Images/hawaii.jpg);
+    width: 100%;
+    height: 800px;
+    background-position: center;
+    background-size: cover;
+}
+
+.container__card-title{
+    padding-top: 140px;
+    padding-bottom: 50px;
+    padding-left: 65px;
+    color: white;
+    font-size: 60px;
+}
+
+.destination__card {
+    height: 375px;
+    width: 275px;
+    border-radius: 5px;
+    border: 1px solid rgba(5, 0, 0, 0.20);
+    background: white;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;   
+}
+
+.destination__card-holder {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.destination__card--color{
+    background-color: #FEFAF5;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;   
+}
+
+.destination__friday {
+    margin-right: 40px;   
+}
+
+.destination__sunday {
+    margin-left: 40px;   
+}
+
+.destination__card--title {
+    font-size: 16px;
+    border-bottom:  3px solid black;
+    padding-top: 15px; 
+    margin-bottom: 30; 
+}
+
+.destination__card--top-spacing{
+    padding-top: 50px;
+}
+
+
+
