@@ -1,12 +1,3 @@
-.--home {
-    border-bottom: 4px solid #DB7A4E;
-    padding-bottom: 10px;
-}
-
-.header__navbar--links {
-    padding-top: 10px;
-}
-
 .hero__container {
     display: flex;
     flex: wrap;
@@ -19,7 +10,8 @@
 }
 
 .hero__text {
-    width: 50%
+    width: 50%;
+    padding-left: 20px;
 }
 .hero__title {
     width: 100%;
@@ -34,28 +26,28 @@
 }
 
 .hero__image {
-    width: 400px;
+    width: 550px;
     padding-right: 70px;
 }
 
 .hero__button {
     background-color: #DB7A4E;
-    border-radius: 12px;
+    border-radius: 15px;
     color: white;
-    padding: 8px 30px 8px 30px;
+    padding: 8px 35px 8px 35px;
     border: none;
 }
 
 .recommendations__container {
     width: 100%;
     margin-top: 40px;
-    margin-bottom: 40px;
+    margin-bottom: 100px;
 }
 
 .recommendations__title {
     color: #335576;
-    padding-bottom: 20px;
-    margin-left: 40px;
+    padding-bottom: 30px;
+    margin-left: 55px;
 }
 
 .recommendations__card-holder {
@@ -63,9 +55,8 @@
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-around;
-    padding-left: 140px;
-    padding-right: 140px;
+    justify-content: center;
+    
 }
 
 .card__link {
@@ -78,11 +69,11 @@
     justify-content: flex-end;
     align-items: flex-end;
     flex-direction: column;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 700;
     height: 100%;
     padding-right: 20px;
-    padding-bottom: 15;
+    padding-bottom: 15px;
 }
 
 .recommendations__card {
@@ -103,6 +94,8 @@
     background: url(../assets/Images/iceland.jpg), rgba(0, 0, 0, .2);
     background-position: center;
     background-size: cover;
+    margin-left: 40px;
+    margin-right: 40px;
 }
 
 
@@ -110,4 +103,8 @@
     background: url(../assets/Images/greece.jpg), rgba(0, 0, 0, .2);
     background-position: center;
     background-size: cover;
+}
+
+.footer__contact {
+    margin-left: 100px;
 }
